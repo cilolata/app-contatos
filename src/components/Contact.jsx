@@ -4,7 +4,7 @@ import './Contact.scss';
 
 function Contact(props) {
   return(
-  <article className="contact" data-testid="contact">
+    <article className="contact" data-testid="contact">
       <span  className="contact__avatar" >
         <img src={props.avatar} 
           alt={props.name}/>

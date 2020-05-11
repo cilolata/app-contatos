@@ -23,7 +23,6 @@ class App extends React.Component {
       this.setState({
         contacts: res,
       })
-      console.log(res)
     })
   }
   

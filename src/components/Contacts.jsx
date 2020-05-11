@@ -15,7 +15,7 @@ function Contacts(props) {
 						<span className="contact__data">Empresa</span>
 						<span className="contact__data">Departamento</span>
 					</article>  	  
-				{props.children}
+				  {props.children}
 				</section>
 			</div>	
 		);
